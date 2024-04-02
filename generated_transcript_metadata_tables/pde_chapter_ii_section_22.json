@@ -1,0 +1,470 @@
+[
+    {
+        "start":10.29,
+        "end":19.61,
+        "text":" In this video, we will discuss the well-posedness of PDEs, or actually PDEs plus a set of conditions.",
+        "avg_logprob":-0.16
+    },
+    {
+        "start":20.29,
+        "end":29.53,
+        "text":" The situation already occurred in dimension 1 with ODEs, where we had the ODE plus the initial condition,",
+        "avg_logprob":-0.16
+    },
+    {
+        "start":29.95,
+        "end":33.57,
+        "text":" and that was called the initial value problem. That's what we did in chapter 1.",
+        "avg_logprob":-0.16
+    },
+    {
+        "start":33.57,
+        "end":42.43,
+        "text":" Now, in a case of a PDE, so higher dimensions, we're going to have initial condition and boundary conditions.",
+        "avg_logprob":-0.12
+    },
+    {
+        "start":42.77,
+        "end":47.65,
+        "text":" Actually, we're going to have initial conditions if the problem depends on time.",
+        "avg_logprob":-0.12
+    },
+    {
+        "start":47.99,
+        "end":55.13,
+        "text":" In this case, we will be interested in the value at time t equals 0, or t times equals t0.",
+        "avg_logprob":-0.12
+    },
+    {
+        "start":55.13,
+        "end":60.97,
+        "text":" But we want to have the value of the system, the state of the system, at some point,",
+        "avg_logprob":-0.12
+    },
+    {
+        "start":61.11,
+        "end":63.13,
+        "text":" and then the PDE will actually...",
+        "avg_logprob":-0.12
+    },
+    {
+        "start":63.73,
+        "end":69.27,
+        "text":" model the evolution of the system, but somehow we need to know where we start.",
+        "avg_logprob":-0.17
+    },
+    {
+        "start":69.91,
+        "end":77.37,
+        "text":" We also have the boundary condition, which is an equation that will be satisfied on the boundary,",
+        "avg_logprob":-0.17
+    },
+    {
+        "start":77.53,
+        "end":82.57,
+        "text":" possibly the value of the unknown on the boundary.",
+        "avg_logprob":-0.17
+    },
+    {
+        "start":83.03,
+        "end":86.17,
+        "text":" So it's pretty clear what we have for initial condition.",
+        "avg_logprob":-0.17
+    },
+    {
+        "start":86.31,
+        "end":91.19,
+        "text":" Basically, the value of the unknown at t equals 0.",
+        "avg_logprob":-0.17
+    },
+    {
+        "start":91.65,
+        "end":93.57,
+        "text":" I just would like to explain...",
+        "avg_logprob":-0.17
+    },
+    {
+        "start":93.73,
+        "end":96.57,
+        "text":" a little bit more what we have for boundary condition.",
+        "avg_logprob":-0.35
+    },
+    {
+        "start":96.73,
+        "end":103.57,
+        "text":" So let's consider a regular open set, omega, included in ODE, which is of class C1.",
+        "avg_logprob":-0.35
+    },
+    {
+        "start":103.73,
+        "end":109.57,
+        "text":" And let us consider a differential operator, A, and the PDE, AU equals F,",
+        "avg_logprob":-0.35
+    },
+    {
+        "start":109.73,
+        "end":112.57,
+        "text":" where F is the data and U is the unknown.",
+        "avg_logprob":-0.35
+    },
+    {
+        "start":112.73,
+        "end":120.57,
+        "text":" Then, by definition, the boundary condition is an equation that you must satisfy on the boundary,",
+        "avg_logprob":-0.35
+    },
+    {
+        "start":120.73,
+        "end":122.61,
+        "text":" or part of the boundary.",
+        "avg_logprob":-0.35
+    },
+    {
+        "start":123.73,
+        "end":128.73,
+        "text":" You can have the Dirichlet boundary condition, which is probably a very simple boundary condition,",
+        "avg_logprob":-0.22
+    },
+    {
+        "start":128.87,
+        "end":130.57,
+        "text":" a very simple equation to satisfy.",
+        "avg_logprob":-0.22
+    },
+    {
+        "start":130.73,
+        "end":137.23,
+        "text":" It's U equals G on the boundary, or part of the boundary, for a given G.",
+        "avg_logprob":-0.22
+    },
+    {
+        "start":137.37,
+        "end":141.73,
+        "text":" So that's... you prescribe the value of U on the boundary.",
+        "avg_logprob":-0.22
+    },
+    {
+        "start":142.73,
+        "end":146.07,
+        "text":" And possibly, the value you prescribe is 0.",
+        "avg_logprob":-0.22
+    },
+    {
+        "start":146.23,
+        "end":151.03,
+        "text":" In this case, we have what we call a homogeneous Dirichlet boundary condition.",
+        "avg_logprob":-0.22
+    },
+    {
+        "start":151.73,
+        "end":152.73,
+        "text":" Let me give you an example.",
+        "avg_logprob":-0.22
+    },
+    {
+        "start":153.57,
+        "end":156.57,
+        "text":" So basically, minus the Laplace U equals F,",
+        "avg_logprob":-0.27
+    },
+    {
+        "start":156.73,
+        "end":161.57,
+        "text":" and you prescribed U to be equal to 0 on the boundary.",
+        "avg_logprob":-0.27
+    },
+    {
+        "start":161.73,
+        "end":165.57,
+        "text":" That is an elliptic PDE with a homogeneous Dirichlet boundary condition.",
+        "avg_logprob":-0.27
+    },
+    {
+        "start":165.73,
+        "end":167.57,
+        "text":" It can represent many things.",
+        "avg_logprob":-0.27
+    },
+    {
+        "start":167.73,
+        "end":174.57,
+        "text":" For instance, if you are in mechanics, then the boundary condition U equals 0, U equals G,",
+        "avg_logprob":-0.27
+    },
+    {
+        "start":174.73,
+        "end":183.53,
+        "text":" means that you are basically attaching your... whatever you're modeling,",
+        "avg_logprob":-0.27
+    },
+    {
+        "start":183.69,
+        "end":186.73,
+        "text":" on the boundary, so it's really an attachment condition.",
+        "avg_logprob":-0.22
+    },
+    {
+        "start":186.91,
+        "end":191.03,
+        "text":" You prescribe the value, so if it's displacement, displacement is equal to 0,",
+        "avg_logprob":-0.22
+    },
+    {
+        "start":191.19,
+        "end":193.49,
+        "text":" you know what is displacement on the boundary.",
+        "avg_logprob":-0.22
+    },
+    {
+        "start":193.65,
+        "end":195.57,
+        "text":" That's an example.",
+        "avg_logprob":-0.22
+    },
+    {
+        "start":195.73,
+        "end":198.73,
+        "text":" You can also have here a parabolic PDE,",
+        "avg_logprob":-0.22
+    },
+    {
+        "start":198.91,
+        "end":203.45,
+        "text":" and then you can see that we're going to have both an initial condition and a boundary condition.",
+        "avg_logprob":-0.22
+    },
+    {
+        "start":203.61,
+        "end":212.57,
+        "text":" So here is what is the heat equation that we will actually describe in section 3.1 of this chapter.",
+        "avg_logprob":-0.22
+    },
+    {
+        "start":212.69,
+        "end":216.91,
+        "text":" So it's time, Dirichlet of U minus Laplace operator equals F,",
+        "avg_logprob":-0.16
+    },
+    {
+        "start":217.07,
+        "end":223.65,
+        "text":" and it can already tell you that F will be the source of heat, and U is temperature.",
+        "avg_logprob":-0.16
+    },
+    {
+        "start":223.81,
+        "end":228.27,
+        "text":" And so you're basically trying to figure out what is going to be the temperature in the room.",
+        "avg_logprob":-0.16
+    },
+    {
+        "start":228.45,
+        "end":232.57,
+        "text":" So obviously, if you have the Dirichlet boundary condition,",
+        "avg_logprob":-0.16
+    },
+    {
+        "start":232.73,
+        "end":238.65,
+        "text":" it means that you impose, you prescribe the temperature on the boundary of your room,",
+        "avg_logprob":-0.16
+    },
+    {
+        "start":238.81,
+        "end":241.81,
+        "text":" and you are interested in also knowing what is the temperature,",
+        "avg_logprob":-0.16
+    },
+    {
+        "start":241.91,
+        "end":242.53,
+        "text":" and you are interested in also knowing what is the temperature,",
+        "avg_logprob":-0.16
+    },
+    {
+        "start":242.53,
+        "end":246.47,
+        "text":" the temperature when you start the experiment, when you start observing. Obviously, if you start",
+        "avg_logprob":-0.11
+    },
+    {
+        "start":246.47,
+        "end":250.37,
+        "text":" with a room which is really cold, it's going to be different than if you start with a room which",
+        "avg_logprob":-0.11
+    },
+    {
+        "start":250.37,
+        "end":255.31,
+        "text":" is very hot. So it makes perfectly good sense. That will be a parabolic PDE with homogenous",
+        "avg_logprob":-0.11
+    },
+    {
+        "start":255.31,
+        "end":261.19,
+        "text":" directly binary condition and a given initial condition. Now, I can just rewrite this way.",
+        "avg_logprob":-0.11
+    },
+    {
+        "start":261.19,
+        "end":267.25,
+        "text":" It's just easier by just writing Tx equals zero and then actually writing the sets this way.",
+        "avg_logprob":-0.11
+    },
+    {
+        "start":267.25,
+        "end":273.45,
+        "text":" All right. We can also have Newman binary conditions. And that means that we have the",
+        "avg_logprob":-0.13
+    },
+    {
+        "start":273.45,
+        "end":279.17,
+        "text":" normal derivative of U, which is equal to G on the boundary. And homogenous Newman",
+        "avg_logprob":-0.13
+    },
+    {
+        "start":279.17,
+        "end":286.33,
+        "text":" binary condition means that G is equal to zero. Here is an example. Minus Laplace U",
+        "avg_logprob":-0.13
+    },
+    {
+        "start":286.33,
+        "end":296.29,
+        "text":" equals F. And Du over Dn equals zero. Well, say, for instance, that basically we're not",
+        "avg_logprob":-0.13
+    },
+    {
+        "start":296.29,
+        "end":297.23,
+        "text":" at equilibrium in terms of Tx. We're not at equilibrium in terms of Tx. We're not",
+        "avg_logprob":-0.13
+    },
+    {
+        "start":297.23,
+        "end":297.25,
+        "text":" at equilibrium in terms of Tx. We're not at equilibrium in terms of Tx. We're not",
+        "avg_logprob":-0.13
+    },
+    {
+        "start":297.25,
+        "end":301.43,
+        "text":" at equilibrium in terms of heat. And then what you are looking at is, well, obviously,",
+        "avg_logprob":-0.1
+    },
+    {
+        "start":301.53,
+        "end":311.11,
+        "text":" you still have a source in your room. But instead of prescribing a value of your temperature",
+        "avg_logprob":-0.1
+    },
+    {
+        "start":311.11,
+        "end":317.17,
+        "text":" on the boundary, what you're actually saying is, what if the flux of heat going out or",
+        "avg_logprob":-0.1
+    },
+    {
+        "start":317.17,
+        "end":321.65,
+        "text":" not going out? I mean, here is zero. So obviously, you're saying, OK, well, it's a very good",
+        "avg_logprob":-0.1
+    },
+    {
+        "start":321.65,
+        "end":327.23,
+        "text":" house here that you have. But in any case, what we're doing here is we're going to",
+        "avg_logprob":-0.1
+    },
+    {
+        "start":327.23,
+        "end":334.53,
+        "text":" doing here is basically talking about another type of boundary condition. So we have different",
+        "avg_logprob":-0.1
+    },
+    {
+        "start":334.53,
+        "end":340.67,
+        "text":" types of boundary conditions. We can also mix the boundary conditions. And let me now tell you what",
+        "avg_logprob":-0.1
+    },
+    {
+        "start":340.67,
+        "end":348.37,
+        "text":" is well-posedness. So it's something that will be discussed in dimension one for ODEs. Let me",
+        "avg_logprob":-0.1
+    },
+    {
+        "start":348.37,
+        "end":356.09,
+        "text":" tell you what it is in the setting of PDEs. Then E and F are two spaces. F is, small f is in capital",
+        "avg_logprob":-0.1
+    },
+    {
+        "start":356.09,
+        "end":363.99,
+        "text":" F, that will be the data. And A is your differential operator coming from E to F. And what we are doing",
+        "avg_logprob":-0.14
+    },
+    {
+        "start":363.99,
+        "end":372.25,
+        "text":" is we are looking for solutions in E. So to the equation AU equals F, which is the PDE.",
+        "avg_logprob":-0.14
+    },
+    {
+        "start":373.11,
+        "end":380.19,
+        "text":" Okay. And you obviously have conditions as well. So boundary conditions, central condition,",
+        "avg_logprob":-0.14
+    },
+    {
+        "start":380.29,
+        "end":385.73,
+        "text":" you name it. Okay. So the PDE will be a well-posed, in the sense of Atomor,",
+        "avg_logprob":-0.14
+    },
+    {
+        "start":386.09,
+        "end":393.49,
+        "text":" if three things occur. Number one, the solution exists. Number two, the solution is unique.",
+        "avg_logprob":-0.11
+    },
+    {
+        "start":394.49,
+        "end":401.15,
+        "text":" Number three, the solution U changes continuously with respect to F. If that is the case,",
+        "avg_logprob":-0.11
+    },
+    {
+        "start":401.15,
+        "end":408.07,
+        "text":" then the PDE, with its conditions, will be called well-posed, in the sense of Atomor.",
+        "avg_logprob":-0.11
+    },
+    {
+        "start":408.51,
+        "end":413.79,
+        "text":" And you know already about well-posedness because we talked about it in dimension one,",
+        "avg_logprob":-0.11
+    },
+    {
+        "start":413.87,
+        "end":415.93,
+        "text":" where we have ODE. It's basically,",
+        "avg_logprob":-0.11
+    },
+    {
+        "start":416.09,
+        "end":423.23,
+        "text":" the same definition extended to PDEs. And whenever the PDE is not well-posed,",
+        "avg_logprob":-0.14
+    },
+    {
+        "start":423.23,
+        "end":426.65,
+        "text":" then it will be called ill-posed.",
+        "avg_logprob":-0.14
+    }
+]

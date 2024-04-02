@@ -1,0 +1,74 @@
+{
+    "0": {
+        "path": "C:\\Users\\marou\\Desktop\\VIDEO2BLOG\\slidemse\\slide_0.png",
+        "start": 0,
+        "end": 2.966666666666667,
+        "descrp": "& \u00b0\n\u2018 _universite\n\nCentraleSup\u00e9lec |. PARIS-SACLAY\n\nChapter II\nModeling with PDEs & Classification\n\nPartial Differential Equations\nJohn Cagnol\n\n"
+    },
+    "1": {
+        "path": "C:\\Users\\marou\\Desktop\\VIDEO2BLOG\\slidemse\\slide_1.png",
+        "start": 2.966666666666667,
+        "end": 6.7,
+        "descrp": "& \u00b0\n\u2018 _untversite\n\nCentraleSup\u00e9lec | PARIS-SACLAY\n\nPartial Differential Equations\nJohn Cagnol\n"
+    },
+    "2": {
+        "path": "C:\\Users\\marou\\Desktop\\VIDEO2BLOG\\slidemse\\slide_2.png",
+        "start": 6.7,
+        "end": 10.033333333333333,
+        "descrp": "&% universit\u00e9 Well-Posedness\n\nCentraleSup\u00e9lec | PARIS-SACLAY\n\nDefinition\nLet E and F be two spaces. Let f \u20ac F bea dataand A: E \u2014 F. Weare\nlooking for solutions u \u20ac E to A(u) = f (the PDE).\n\nThe PDE is well-posed in the sense of Hadamard if:\nP asolution u exists,\nP the solution u is unique,\n\n> uchanges \u201ccontinuously\u201d with respect tof.\n\nA PDE that is not well-posed is said to be ill-posed\n\n"
+    },
+    "3": {
+        "path": "C:\\Users\\marou\\Desktop\\VIDEO2BLOG\\slidemse\\slide_3.png",
+        "start": 10.033333333333333,
+        "end": 15.766666666666667,
+        "descrp": "Well-Posedness\n\nLet E and F be two spaces. Let f \u20ac F beadataand A: E \u2014 F. Weare\nlooking for solutions u \u20ac E to A(u) = f (the PDE).\n\nuniversit\u00e9\nCentraleSup\u00e9lec | PARIS-SACLAY\n\nThe PDE is well-posed in the sense of Hadamard if:\n> asolution u exists,\nP the solution u is unique,\n> uchanges \u201ccontinuously\u201d with respect tof.\n\nA PDE that is not well-posed is said to be ill-posed\n"
+    },
+    "4": {
+        "path": "C:\\Users\\marou\\Desktop\\VIDEO2BLOG\\slidemse\\slide_4.png",
+        "start": 15.766666666666667,
+        "end": 97.83333333333333,
+        "descrp": "a o\ne) universit\u00e9\n\nCentraleSup\u00e9lec | PARIS-SACLAY\n\n1.2 Definitions\n\n1.2.2 Wellposedness\n\nPartial Differential Equations\nJohn Cagnol\n\n"
+    },
+    "5": {
+        "path": "C:\\Users\\marou\\Desktop\\VIDEO2BLOG\\slidemse\\slide_5.png",
+        "start": 97.83333333333333,
+        "end": 124.4,
+        "descrp": "&% .\n% universite\u00e9\n\nCentraleSup\u00e9lec | PARIS-SACLAY\n\nPDE: infinite number of solutions\nProblem: PDE + conditions\n\n> initial condition (Cauchy problem) for evolution equations:\nvalue at t = 0.\n\n> boundary conditions:\nvalue on 0Q\n\n"
+    },
+    "6": {
+        "path": "C:\\Users\\marou\\Desktop\\VIDEO2BLOG\\slidemse\\slide_6.png",
+        "start": 124.4,
+        "end": 153.16666666666666,
+        "descrp": "% i unversit\u00e9 Boundary Conditions\n\nCentraleSup\u00e9lec | PARIS-SACLAY\n\nDefinition\n\nLet Q C R\u00a2 be a regular open set of class C},\n\nConsider a PDE Au = f on QQ where A is the differential operator, u is the\nunknown and f is the data.\n\nThe Boundary Condition (B.C.) is an equation that u must satisfy on OQ (or\npart of OQ).\n\ny \\\\_ Value (or other property)\n/ given on the boundary\n\n\\ a0\n\n/, Region governed |\nbythe PDE /\n"
+    },
+    "7": {
+        "path": "C:\\Users\\marou\\Desktop\\VIDEO2BLOG\\slidemse\\slide_7.png",
+        "start": 153.16666666666666,
+        "end": 196.3,
+        "descrp": "% i unversite Boundary Conditions\n\nCentraleSup\u00e9lec | PARIS-SACLAY\ninition\n\nA Dirichlet boundary condition is u = g on OQ for a given g.\n\nA Homogeneous Dirichlet boundary condition is u = 0 on OQ.\n\n"
+    },
+    "8": {
+        "path": "C:\\Users\\marou\\Desktop\\VIDEO2BLOG\\slidemse\\slide_8.png",
+        "start": 196.3,
+        "end": 270.3333333333333,
+        "descrp": "% i unversite Boundary Conditions\n\nCentraleSup\u00e9lec | PARIS-SACLAY\n\nDefinition\n\nA Dirichlet boundary condition is u = g on OQ for a given g.\n\nA Homogeneous Dirichlet boundary condition is u = 0 on OQ.\n\n{ \u2014Au(x) = f(x) xe\n\nulan =0\n\nis an elliptic PDE with homogeneous Dirichlet boundary condition.\n"
+    },
+    "9": {
+        "path": "C:\\Users\\marou\\Desktop\\VIDEO2BLOG\\slidemse\\slide_9.png",
+        "start": 270.3333333333333,
+        "end": 284.8,
+        "descrp": "S unversit\u00e9 Boundary Conditions\n\nCentraleSup\u00e9lec | PARIS-SACLAY\nDefinition\n\nA Dirichlet boundary condition is u = g on OQ for a given g.\n\nA Homogeneous Dirichlet boundary condition is u = 0 on OQ.\n\nu(t, x) \u2014 Au(t, x) = f(t, x) (t,x) \u20ac]0, T[xQ\nulan(t) = 0 t \u20ac]0, T[\nu(0, x) = \u00a2(x) and 240, x) =yY(x) xEQ\n\nis a parabolic PDE with homogeneous Dirichlet boundary condition and with a\ngiven initial condition.\n\n"
+    },
+    "10": {
+        "path": "C:\\Users\\marou\\Desktop\\VIDEO2BLOG\\slidemse\\slide_10.png",
+        "start": 284.8,
+        "end": 340.1,
+        "descrp": "% i unversit\u00e9 Boundary Conditions\n\nCentraleSup\u00e9lec | PARIS-SACLAY\ninition\n\nA Neumann boundary condition is 3u = g on 00 for a given g.\n\nA Homogeneous Neumann B.C. is 5 ou = 00nd.\n\n"
+    },
+    "11": {
+        "path": "C:\\Users\\marou\\Desktop\\VIDEO2BLOG\\slidemse\\slide_11.png",
+        "start": 340.1,
+        "end": 426.93333333333334,
+        "descrp": "g \u00b0\n> universit\u00e9\n\nCentraleSup\u00e9lec | PARIS-SACLAY\n\nBoundary Conditions\n\nDefinition\n\nA Neumann boundary condition is 9u = gon OO for a given g.\n\nA Homogeneous Neumann B.C. is 5 ou = 00nd.\n\nExample\n\nOu _\non = on dQ\n\nis an elliptic PDE with homogeneous Neumann boundary condition.\n\n{ \u2014Au(x) = f(x) mQ\n"
+    }
+}

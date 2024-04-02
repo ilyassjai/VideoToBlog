@@ -1,0 +1,79 @@
+start,end,text,avg_logprob
+10.29,19.61," In this video, we will discuss the well-posedness of PDEs, or actually PDEs plus a set of conditions.",-0.16
+20.29,29.53," The situation already occurred in dimension 1 with ODEs, where we had the ODE plus the initial condition,",-0.16
+29.95,33.57, and that was called the initial value problem. That's what we did in chapter 1.,-0.16
+33.57,42.43," Now, in a case of a PDE, so higher dimensions, we're going to have initial condition and boundary conditions.",-0.12
+42.77,47.65," Actually, we're going to have initial conditions if the problem depends on time.",-0.12
+47.99,55.13," In this case, we will be interested in the value at time t equals 0, or t times equals t0.",-0.12
+55.13,60.97," But we want to have the value of the system, the state of the system, at some point,",-0.12
+61.11,63.13, and then the PDE will actually...,-0.12
+63.73,69.27," model the evolution of the system, but somehow we need to know where we start.",-0.17
+69.91,77.37," We also have the boundary condition, which is an equation that will be satisfied on the boundary,",-0.17
+77.53,82.57, possibly the value of the unknown on the boundary.,-0.17
+83.03,86.17, So it's pretty clear what we have for initial condition.,-0.17
+86.31,91.19," Basically, the value of the unknown at t equals 0.",-0.17
+91.65,93.57, I just would like to explain...,-0.17
+93.73,96.57, a little bit more what we have for boundary condition.,-0.35
+96.73,103.57," So let's consider a regular open set, omega, included in ODE, which is of class C1.",-0.35
+103.73,109.57," And let us consider a differential operator, A, and the PDE, AU equals F,",-0.35
+109.73,112.57, where F is the data and U is the unknown.,-0.35
+112.73,120.57," Then, by definition, the boundary condition is an equation that you must satisfy on the boundary,",-0.35
+120.73,122.61, or part of the boundary.,-0.35
+123.73,128.73," You can have the Dirichlet boundary condition, which is probably a very simple boundary condition,",-0.22
+128.87,130.57, a very simple equation to satisfy.,-0.22
+130.73,137.23," It's U equals G on the boundary, or part of the boundary, for a given G.",-0.22
+137.37,141.73, So that's... you prescribe the value of U on the boundary.,-0.22
+142.73,146.07," And possibly, the value you prescribe is 0.",-0.22
+146.23,151.03," In this case, we have what we call a homogeneous Dirichlet boundary condition.",-0.22
+151.73,152.73, Let me give you an example.,-0.22
+153.57,156.57," So basically, minus the Laplace U equals F,",-0.27
+156.73,161.57, and you prescribed U to be equal to 0 on the boundary.,-0.27
+161.73,165.57, That is an elliptic PDE with a homogeneous Dirichlet boundary condition.,-0.27
+165.73,167.57, It can represent many things.,-0.27
+167.73,174.57," For instance, if you are in mechanics, then the boundary condition U equals 0, U equals G,",-0.27
+174.73,183.53," means that you are basically attaching your... whatever you're modeling,",-0.27
+183.69,186.73," on the boundary, so it's really an attachment condition.",-0.22
+186.91,191.03," You prescribe the value, so if it's displacement, displacement is equal to 0,",-0.22
+191.19,193.49, you know what is displacement on the boundary.,-0.22
+193.65,195.57, That's an example.,-0.22
+195.73,198.73," You can also have here a parabolic PDE,",-0.22
+198.91,203.45, and then you can see that we're going to have both an initial condition and a boundary condition.,-0.22
+203.61,212.57, So here is what is the heat equation that we will actually describe in section 3.1 of this chapter.,-0.22
+212.69,216.91," So it's time, Dirichlet of U minus Laplace operator equals F,",-0.16
+217.07,223.65," and it can already tell you that F will be the source of heat, and U is temperature.",-0.16
+223.81,228.27, And so you're basically trying to figure out what is going to be the temperature in the room.,-0.16
+228.45,232.57," So obviously, if you have the Dirichlet boundary condition,",-0.16
+232.73,238.65," it means that you impose, you prescribe the temperature on the boundary of your room,",-0.16
+238.81,241.81," and you are interested in also knowing what is the temperature,",-0.16
+241.91,242.53," and you are interested in also knowing what is the temperature,",-0.16
+242.53,246.47," the temperature when you start the experiment, when you start observing. Obviously, if you start",-0.11
+246.47,250.37," with a room which is really cold, it's going to be different than if you start with a room which",-0.11
+250.37,255.31, is very hot. So it makes perfectly good sense. That will be a parabolic PDE with homogenous,-0.11
+255.31,261.19," directly binary condition and a given initial condition. Now, I can just rewrite this way.",-0.11
+261.19,267.25, It's just easier by just writing Tx equals zero and then actually writing the sets this way.,-0.11
+267.25,273.45, All right. We can also have Newman binary conditions. And that means that we have the,-0.13
+273.45,279.17," normal derivative of U, which is equal to G on the boundary. And homogenous Newman",-0.13
+279.17,286.33, binary condition means that G is equal to zero. Here is an example. Minus Laplace U,-0.13
+286.33,296.29," equals F. And Du over Dn equals zero. Well, say, for instance, that basically we're not",-0.13
+296.29,297.23, at equilibrium in terms of Tx. We're not at equilibrium in terms of Tx. We're not,-0.13
+297.23,297.25, at equilibrium in terms of Tx. We're not at equilibrium in terms of Tx. We're not,-0.13
+297.25,301.43," at equilibrium in terms of heat. And then what you are looking at is, well, obviously,",-0.1
+301.53,311.11, you still have a source in your room. But instead of prescribing a value of your temperature,-0.1
+311.11,317.17," on the boundary, what you're actually saying is, what if the flux of heat going out or",-0.1
+317.17,321.65," not going out? I mean, here is zero. So obviously, you're saying, OK, well, it's a very good",-0.1
+321.65,327.23," house here that you have. But in any case, what we're doing here is we're going to",-0.1
+327.23,334.53, doing here is basically talking about another type of boundary condition. So we have different,-0.1
+334.53,340.67, types of boundary conditions. We can also mix the boundary conditions. And let me now tell you what,-0.1
+340.67,348.37, is well-posedness. So it's something that will be discussed in dimension one for ODEs. Let me,-0.1
+348.37,356.09," tell you what it is in the setting of PDEs. Then E and F are two spaces. F is, small f is in capital",-0.1
+356.09,363.99," F, that will be the data. And A is your differential operator coming from E to F. And what we are doing",-0.14
+363.99,372.25," is we are looking for solutions in E. So to the equation AU equals F, which is the PDE.",-0.14
+373.11,380.19," Okay. And you obviously have conditions as well. So boundary conditions, central condition,",-0.14
+380.29,385.73," you name it. Okay. So the PDE will be a well-posed, in the sense of Atomor,",-0.14
+386.09,393.49," if three things occur. Number one, the solution exists. Number two, the solution is unique.",-0.11
+394.49,401.15," Number three, the solution U changes continuously with respect to F. If that is the case,",-0.11
+401.15,408.07," then the PDE, with its conditions, will be called well-posed, in the sense of Atomor.",-0.11
+408.51,413.79," And you know already about well-posedness because we talked about it in dimension one,",-0.11
+413.87,415.93," where we have ODE. It's basically,",-0.11
+416.09,423.23," the same definition extended to PDEs. And whenever the PDE is not well-posed,",-0.14
+423.23,426.65, then it will be called ill-posed.,-0.14
