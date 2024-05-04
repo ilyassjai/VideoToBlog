@@ -1,0 +1,266 @@
+[
+    {
+        "start":9.71,
+        "end":15.05,
+        "text":" As a byproduct from the previous video, we have what is called the transport equation,",
+        "avg_logprob":-0.13
+    },
+    {
+        "start":15.47,
+        "end":20.05,
+        "text":" which can be used to model transport, transport of pollutants, for instance.",
+        "avg_logprob":-0.13
+    },
+    {
+        "start":20.05,
+        "end":25.37,
+        "text":" Let us consider this equation, the transport equation, where C is a constant.",
+        "avg_logprob":-0.13
+    },
+    {
+        "start":25.85,
+        "end":30.43,
+        "text":" Basically, it will have something to do with the speed, the velocity of the transport.",
+        "avg_logprob":-0.13
+    },
+    {
+        "start":30.83,
+        "end":32.41,
+        "text":" And F is a given function.",
+        "avg_logprob":-0.13
+    },
+    {
+        "start":33.19,
+        "end":38.53,
+        "text":" Then U can be the density of pollutants in the air.",
+        "avg_logprob":-0.13
+    },
+    {
+        "start":38.53,
+        "end":43.39,
+        "text":" That is a transport equation used to model this phenomenon.",
+        "avg_logprob":-0.12
+    },
+    {
+        "start":44.19,
+        "end":49.87,
+        "text":" You can also use the transport equation to model traffic flow, especially in 1D.",
+        "avg_logprob":-0.12
+    },
+    {
+        "start":50.33,
+        "end":60.65,
+        "text":" If you have, for instance, a highway, then you will have an interest in knowing what is the density of cars on the highway.",
+        "avg_logprob":-0.12
+    },
+    {
+        "start":60.87,
+        "end":66.61,
+        "text":" And of course, the higher the density, the lower the velocity of the car on that part of the highway.",
+        "avg_logprob":-0.12
+    },
+    {
+        "start":66.89,
+        "end":68.37,
+        "text":" Now, we're saying...",
+        "avg_logprob":-0.12
+    },
+    {
+        "start":68.37,
+        "end":73.55,
+        "text":" I'm saying in 1D because it's obviously a highway.",
+        "avg_logprob":-0.13
+    },
+    {
+        "start":73.83,
+        "end":77.57,
+        "text":" I mean, it can be considered as a one-dimensional mathematical object.",
+        "avg_logprob":-0.13
+    },
+    {
+        "start":77.57,
+        "end":85.33,
+        "text":" But you see that we are dealing with a 2D PDE because you have 1D in space, but 1D in time.",
+        "avg_logprob":-0.13
+    },
+    {
+        "start":85.45,
+        "end":88.79,
+        "text":" Obviously, that traffic will evolve with time.",
+        "avg_logprob":-0.13
+    },
+    {
+        "start":89.21,
+        "end":93.73,
+        "text":" So that is an equation that can be used to model traffic flow.",
+        "avg_logprob":-0.13
+    },
+    {
+        "start":94.79,
+        "end":98.33,
+        "text":" Now, I would like to use these examples to show you...",
+        "avg_logprob":-0.13
+    },
+    {
+        "start":98.33,
+        "end":99.69,
+        "text":" Something called characteristics.",
+        "avg_logprob":-0.14
+    },
+    {
+        "start":99.95,
+        "end":104.71,
+        "text":" And we will not get in a lot of details in this class.",
+        "avg_logprob":-0.14
+    },
+    {
+        "start":104.71,
+        "end":112.55,
+        "text":" Next year, if you choose the appropriate elective classes, then you will get more in details for this method",
+        "avg_logprob":-0.14
+    },
+    {
+        "start":112.55,
+        "end":116.37,
+        "text":" and see how it can actually be used for a lot of things.",
+        "avg_logprob":-0.14
+    },
+    {
+        "start":116.55,
+        "end":122.79,
+        "text":" And it's actually a very interesting thing to actually get to understand.",
+        "avg_logprob":-0.14
+    },
+    {
+        "start":123.17,
+        "end":127.71,
+        "text":" But we'll just explain things very quickly.",
+        "avg_logprob":-0.14
+    },
+    {
+        "start":127.71,
+        "end":128.21,
+        "text":" Very quickly.",
+        "avg_logprob":-0.14
+    },
+    {
+        "start":128.33,
+        "end":143.35,
+        "text":" So what we are trying to do is to find a function, capital X, such that the function T gives U of T, capital X of T, is constant.",
+        "avg_logprob":-0.12
+    },
+    {
+        "start":144.31,
+        "end":153.95,
+        "text":" And requiring this is obviously requiring that D, the derivative of W with respect to time, is 0.",
+        "avg_logprob":-0.12
+    },
+    {
+        "start":153.95,
+        "end":157.95,
+        "text":" So let me write this time derivative of W with respect...",
+        "avg_logprob":-0.12
+    },
+    {
+        "start":158.33,
+        "end":160.33,
+        "text":" That's simply a chain rule.",
+        "avg_logprob":-0.32
+    },
+    {
+        "start":160.33,
+        "end":167.33,
+        "text":" That's the time derivative of U, plus dx over dt space derivative of U.",
+        "avg_logprob":-0.32
+    },
+    {
+        "start":167.33,
+        "end":168.33,
+        "text":" Okay.",
+        "avg_logprob":-0.32
+    },
+    {
+        "start":168.33,
+        "end":177.33,
+        "text":" And again, if we want dx over dt to be a constant, then it means that dw over dt has to be equal to 0.",
+        "avg_logprob":-0.32
+    },
+    {
+        "start":177.33,
+        "end":177.83,
+        "text":" Right?",
+        "avg_logprob":-0.32
+    },
+    {
+        "start":177.83,
+        "end":179.33,
+        "text":" So because W is constant.",
+        "avg_logprob":-0.32
+    },
+    {
+        "start":179.33,
+        "end":186.33,
+        "text":" So what we're saying then is that X of S will be Cs plus X of 0.",
+        "avg_logprob":-0.32
+    },
+    {
+        "start":186.33,
+        "end":187.33,
+        "text":" Which means that...",
+        "avg_logprob":-0.32
+    },
+    {
+        "start":188.33,
+        "end":195.33,
+        "text":" U T X of T is equal to U0 X of 0.",
+        "avg_logprob":-0.14
+    },
+    {
+        "start":195.33,
+        "end":196.33,
+        "text":" So you see what happens.",
+        "avg_logprob":-0.14
+    },
+    {
+        "start":196.33,
+        "end":198.33,
+        "text":" We have the solution, right?",
+        "avg_logprob":-0.14
+    },
+    {
+        "start":198.33,
+        "end":205.33,
+        "text":" U T X of T will be somewhat what happens at the initial condition at X0.",
+        "avg_logprob":-0.14
+    },
+    {
+        "start":205.33,
+        "end":209.33,
+        "text":" But you see, you're basically following some kind of a path here.",
+        "avg_logprob":-0.14
+    },
+    {
+        "start":209.33,
+        "end":212.33,
+        "text":" And this is called the characteristic method.",
+        "avg_logprob":-0.14
+    },
+    {
+        "start":212.33,
+        "end":215.33,
+        "text":" And we are dealing here with characteristics.",
+        "avg_logprob":-0.14
+    },
+    {
+        "start":215.33,
+        "end":217.33,
+        "text":" So again, this is something that you will get in much more detail.",
+        "avg_logprob":-0.14
+    },
+    {
+        "start":217.33,
+        "end":227.33,
+        "text":" Next year, should you choose to select the elective classes that will actually go more in depth with these PDs.",
+        "avg_logprob":-0.15
+    }
+]

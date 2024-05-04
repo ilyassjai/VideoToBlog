@@ -1,0 +1,45 @@
+start,end,text,avg_logprob
+9.71,15.05," As a byproduct from the previous video, we have what is called the transport equation,",-0.13
+15.47,20.05," which can be used to model transport, transport of pollutants, for instance.",-0.13
+20.05,25.37," Let us consider this equation, the transport equation, where C is a constant.",-0.13
+25.85,30.43," Basically, it will have something to do with the speed, the velocity of the transport.",-0.13
+30.83,32.41, And F is a given function.,-0.13
+33.19,38.53, Then U can be the density of pollutants in the air.,-0.13
+38.53,43.39, That is a transport equation used to model this phenomenon.,-0.12
+44.19,49.87," You can also use the transport equation to model traffic flow, especially in 1D.",-0.12
+50.33,60.65," If you have, for instance, a highway, then you will have an interest in knowing what is the density of cars on the highway.",-0.12
+60.87,66.61," And of course, the higher the density, the lower the velocity of the car on that part of the highway.",-0.12
+66.89,68.37," Now, we're saying...",-0.12
+68.37,73.55, I'm saying in 1D because it's obviously a highway.,-0.13
+73.83,77.57," I mean, it can be considered as a one-dimensional mathematical object.",-0.13
+77.57,85.33," But you see that we are dealing with a 2D PDE because you have 1D in space, but 1D in time.",-0.13
+85.45,88.79," Obviously, that traffic will evolve with time.",-0.13
+89.21,93.73, So that is an equation that can be used to model traffic flow.,-0.13
+94.79,98.33," Now, I would like to use these examples to show you...",-0.13
+98.33,99.69, Something called characteristics.,-0.14
+99.95,104.71, And we will not get in a lot of details in this class.,-0.14
+104.71,112.55," Next year, if you choose the appropriate elective classes, then you will get more in details for this method",-0.14
+112.55,116.37, and see how it can actually be used for a lot of things.,-0.14
+116.55,122.79, And it's actually a very interesting thing to actually get to understand.,-0.14
+123.17,127.71, But we'll just explain things very quickly.,-0.14
+127.71,128.21, Very quickly.,-0.14
+128.33,143.35," So what we are trying to do is to find a function, capital X, such that the function T gives U of T, capital X of T, is constant.",-0.12
+144.31,153.95," And requiring this is obviously requiring that D, the derivative of W with respect to time, is 0.",-0.12
+153.95,157.95, So let me write this time derivative of W with respect...,-0.12
+158.33,160.33, That's simply a chain rule.,-0.32
+160.33,167.33," That's the time derivative of U, plus dx over dt space derivative of U.",-0.32
+167.33,168.33, Okay.,-0.32
+168.33,177.33," And again, if we want dx over dt to be a constant, then it means that dw over dt has to be equal to 0.",-0.32
+177.33,177.83, Right?,-0.32
+177.83,179.33, So because W is constant.,-0.32
+179.33,186.33, So what we're saying then is that X of S will be Cs plus X of 0.,-0.32
+186.33,187.33, Which means that...,-0.32
+188.33,195.33, U T X of T is equal to U0 X of 0.,-0.14
+195.33,196.33, So you see what happens.,-0.14
+196.33,198.33," We have the solution, right?",-0.14
+198.33,205.33, U T X of T will be somewhat what happens at the initial condition at X0.,-0.14
+205.33,209.33," But you see, you're basically following some kind of a path here.",-0.14
+209.33,212.33, And this is called the characteristic method.,-0.14
+212.33,215.33, And we are dealing here with characteristics.,-0.14
+215.33,217.33," So again, this is something that you will get in much more detail.",-0.14
+217.33,227.33," Next year, should you choose to select the elective classes that will actually go more in depth with these PDs.",-0.15
