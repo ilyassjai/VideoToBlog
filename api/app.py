@@ -1,7 +1,7 @@
 from werkzeug.utils import secure_filename  # type: ignore
 from flask import Flask, request  # type: ignore
 import subprocess
-
+# , minor change
 app = Flask(__name__)
 
 ALLOWED_EXTENSIONS = {'mp4', 'mov', 'avi'}
