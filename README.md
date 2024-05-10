@@ -14,9 +14,7 @@ This API is designed to generate a blog from a conference video. The process inv
 
 - **Slide Content Extraction**: The content of the slides is also extracted and added to the prompts sent to the language model to improve the blog output.
 
-  
- ![Image](MSEhistogrm.png)
-
+![Image](images/MSEhistogrm.png)
 
 - **Language Model Integration**: Each context chunk, along with the corresponding slide content, is processed by a language model to generate a formatted MArkdown section.
 
@@ -31,14 +29,17 @@ git clone https://github.com/your-repo/blog-generation-api.git
 ```
 
 ## Example :
+
 ### Summary of Partial Differential Equations (PDEs) and Initial Value Problems
 
-In the realm of Partial Differential Equations (PDEs), the concept of initial value problems extends from Ordinary Differential Equations (ODEs) in dimension 1. In the case of PDEs, which operate in higher dimensions, we encounter initial conditions and boundary conditions. 
+In the realm of Partial Differential Equations (PDEs), the concept of initial value problems extends from Ordinary Differential Equations (ODEs) in dimension 1. In the case of PDEs, which operate in higher dimensions, we encounter initial conditions and boundary conditions.
 
 #### Initial Conditions
+
 When the PDE problem involves time dependency, initial conditions are crucial. These conditions focus on determining the state of the system at specific time points, such as at t=0 or t=t0.
 
 #### Boundary Conditions
+
 Boundary conditions, on the other hand, define the behavior of the PDE on the boundary of the system. This could involve specifying the values of the unknown variable on the boundary.
 
 In essence, while initial conditions mark the starting point for the system, boundary conditions ensure the PDE accurately models the evolution of the system within its defined boundaries.
@@ -48,7 +49,7 @@ In essence, while initial conditions mark the starting point for the system, bou
 By John Cagnol  
 Université CentraleSupélec | PARIS-SACLAY
 
-![Image](./slidemse/slide_4.png)
+![Image](outputs/slidemse/slide_4.png)
 
 ### Understanding Partial Differential Equations (PDEs)
 
@@ -64,7 +65,7 @@ When dealing with PDEs, it's essential to acknowledge the presence of an infinit
 
 By recognizing and appropriately addressing these conditions, one can navigate the landscape of PDEs with clarity and precision.
 
-![Image](./slidemse/slide_5.png)
+![Image](outputs/slidemse/slide_5.png)
 
 ### Boundary Conditions in Partial Differential Equations
 
@@ -86,7 +87,7 @@ To illustrate, let's consider a very simple equation where $u = g$ on the bounda
 
 By understanding and applying appropriate boundary conditions, we can effectively solve PDEs and analyze the behavior of solutions in various physical and mathematical contexts.
 
-![Image](./slidemse/slide_6.png)
+![Image](outputs/slidemse/slide_6.png)
 
 ### Understanding Elliptic PDEs with Boundary Conditions
 
@@ -112,7 +113,7 @@ A Dirichlet boundary condition is u = g on OQ for a given g.
 
 A Homogeneous Dirichlet boundary condition is u = 0 on OQ.
 
-![Image](./slidemse/slide_7.png)
+![Image](outputs/slidemse/slide_7.png)
 
 ### Heat Equation Description
 
@@ -140,7 +141,7 @@ The equation `-∆u(x) = f(x)` with `u|∂Ω = 0` represents an elliptic PDE wit
 
 By understanding and applying these boundary conditions, we can effectively model and analyze temperature variations in a given environment.
 
-![Image](./slidemse/slide_8.png)
+![Image](outputs/slidemse/slide_8.png)
 
 ### Boundary Conditions in Parabolic PDEs
 
@@ -158,12 +159,12 @@ On the other hand, a Homogeneous Dirichlet boundary condition is a special case 
 
 For a parabolic PDE of the form \( u_t - Au = f(t, x) \) with \( (t, x) \in ]0, T[ \) and \( x \in \Omega \), where \( \Omega \) represents the spatial domain, the boundary conditions and initial conditions are given as follows:
 
-- Homogeneous Dirichlet boundary condition: \( u|_{\partial \Omega} = 0 \) for \( t \in ]0, T[ \)
+- Homogeneous Dirichlet boundary condition: \( u|\_{\partial \Omega} = 0 \) for \( t \in ]0, T[ \)
 - Initial conditions: \( u(0, x) = \phi(x) \) and \( u_t(0, x) = \psi(x) \) for \( x \in \Omega \)
 
 Understanding and appropriately applying these boundary conditions are essential in solving parabolic PDEs with accuracy and efficiency.
 
-![Image](./slidemse/slide_9.png)
+![Image](outputs/slidemse/slide_9.png)
 
 ### Neumann Boundary Conditions
 
@@ -181,7 +182,7 @@ When analyzing systems that are not in equilibrium, such as in terms of temperat
 
 In summary, understanding and applying appropriate boundary conditions, including Neumann and Homogeneous Neumann B.C., are fundamental aspects of mathematical modeling. These conditions enable researchers and practitioners to make accurate predictions and draw meaningful conclusions in various scientific and engineering fields.
 
-![Image](./slidemse/slide_10.png)
+![Image](outputs/slidemse/slide_10.png)
 
 ## Well-Posedness in PDEs
 
@@ -194,6 +195,7 @@ Given spaces E and F, with F containing the data (represented by small f), and a
 ### Criteria for Well-Posedness
 
 A PDE, according to the standards set by Atomor, is deemed well-posed if three conditions are met:
+
 1. Existence of a solution
 2. Uniqueness of the solution
 3. Continuity of the solution U concerning changes in F
@@ -214,16 +216,15 @@ In the domain of PDEs, boundary conditions play a vital role in shaping the beha
 ### Example
 
 Consider the elliptic PDE:
+
 - Au(x) = f(x) in Ω
 
 With a homogeneous Neumann boundary condition:
+
 - ∂u/∂n = 0 on ∂Ω
 
 ---
 
 By adhering to the principles of well-posedness and understanding the nuances of boundary conditions, one can navigate the intricate landscape of Partial Differential Equations with clarity and precision.
 
-![Image](./slidemse/slide_11.png)
-
-
-
+![Image](outputs/slidemse/slide_11.png)
