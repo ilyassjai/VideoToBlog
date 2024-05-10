@@ -86,7 +86,7 @@ def extract_unique_slides_mse(video_path, mse_threshold=1000):
         current_time = count / fps
 
         if mse_value > mse_threshold:
-            img_path = os.path.join('outputs/slidemse/', f"slide_{saved_frame}.png")
+            img_path = os.path.join('./slidemse/', f"slide_{saved_frame}.png")
             cv2.imwrite(img_path, frame)
             print(f"Saved slide_{saved_frame}.png at time {current_time} seconds")
             end_time = current_time
@@ -111,8 +111,10 @@ def videotodataframe(url) -> pd.DataFrame :
     video_path=download(url)
     asyncio.run(process_video_or_playlist(url, max_simultaneous_youtube_downloads, max_workers_transcribe))
     dict_time=extract_unique_slides_mse(video_path, mse_threshold=1000)
-    dict_ocr=extract_text_from_image('outputs/slidemse/')
+    dict_ocr=extract_text_from_image('./slidemse/')
     combined_json = combine_dicts(dict_time, dict_ocr)
+    with open('combined.json', 'w') as f:
+        f.write(combined_json)
     df=pd.read_csv('outputs/generated_transcript_metadata_tables/pde_chapter_ii_section_22.csv')
     with open("./combined.json", "r") as file:
         data = json.load(file)

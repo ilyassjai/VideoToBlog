@@ -17,7 +17,7 @@ In essence, while initial conditions mark the starting point for the system, bou
 By John Cagnol  
 Université CentraleSupélec | PARIS-SACLAY
 
-![Image](outputs/slidemse/slide_4.png)
+![Image](./slidemse/slide_4.png)
 
 ### Understanding Partial Differential Equations (PDEs)
 
@@ -33,7 +33,7 @@ When dealing with PDEs, it's essential to acknowledge the presence of an infinit
 
 By recognizing and appropriately addressing these conditions, one can navigate the landscape of PDEs with clarity and precision.
 
-![Image](outputs/slidemse/slide_5.png)
+![Image](./slidemse/slide_5.png)
 
 ### Boundary Conditions in Partial Differential Equations
 
@@ -55,7 +55,7 @@ To illustrate, let's consider a very simple equation where $u = g$ on the bounda
 
 By understanding and applying appropriate boundary conditions, we can effectively solve PDEs and analyze the behavior of solutions in various physical and mathematical contexts.
 
-![Image](outputs/slidemse/slide_6.png)
+![Image](./slidemse/slide_6.png)
 
 ### Understanding Elliptic PDEs with Boundary Conditions
 
@@ -81,7 +81,7 @@ A Dirichlet boundary condition is u = g on OQ for a given g.
 
 A Homogeneous Dirichlet boundary condition is u = 0 on OQ.
 
-![Image](outputs/slidemse/slide_7.png)
+![Image](./slidemse/slide_7.png)
 
 ### Heat Equation Description
 
@@ -109,7 +109,7 @@ The equation `-∆u(x) = f(x)` with `u|∂Ω = 0` represents an elliptic PDE wit
 
 By understanding and applying these boundary conditions, we can effectively model and analyze temperature variations in a given environment.
 
-![Image](outputs/slidemse/slide_8.png)
+![Image](./slidemse/slide_8.png)
 
 ### Boundary Conditions in Parabolic PDEs
 
@@ -132,7 +132,7 @@ For a parabolic PDE of the form \( u_t - Au = f(t, x) \) with \( (t, x) \in ]0, 
 
 Understanding and appropriately applying these boundary conditions are essential in solving parabolic PDEs with accuracy and efficiency.
 
-![Image](outputs/slidemse/slide_9.png)
+![Image](./slidemse/slide_9.png)
 
 ### Neumann Boundary Conditions
 
@@ -150,7 +150,7 @@ When analyzing systems that are not in equilibrium, such as in terms of temperat
 
 In summary, understanding and applying appropriate boundary conditions, including Neumann and Homogeneous Neumann B.C., are fundamental aspects of mathematical modeling. These conditions enable researchers and practitioners to make accurate predictions and draw meaningful conclusions in various scientific and engineering fields.
 
-![Image](outputs/slidemse/slide_10.png)
+![Image](./slidemse/slide_10.png)
 
 ## Well-Posedness in PDEs
 
@@ -195,4 +195,4 @@ With a homogeneous Neumann boundary condition:
 
 By adhering to the principles of well-posedness and understanding the nuances of boundary conditions, one can navigate the intricate landscape of Partial Differential Equations with clarity and precision.
 
-![Image](outputs/slidemse/slide_11.png)
+![Image](./slidemse/slide_11.png)
