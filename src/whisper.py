@@ -15,12 +15,10 @@ convert_single_video = 1  # Set this to 1 to process a single video, 0 for a pla
 use_spacy_for_sentence_splitting = 1
 max_simultaneous_youtube_downloads = 4
 disable_cuda_override = 1 # Set this to 1 to disable CUDA even if it is available
-single_video_url = 'https://www.youtube.com/watch?v=gSYGOZVugtw'  # Single video URL
-playlist_url = 'https://www.youtube.com/playlist?list=PLjpPMe3LP1XKgqqzqz4j6M8-_M_soYxiV' # Playlist URL
 if convert_single_video:
-    print(f"Processing a single video: {single_video_url}")
+    print(f"Processing a single video")
 else:
-    print(f"Processing a playlist: {playlist_url}")
+    print(f"Processing a playlist")
 
 def add_to_system_path(new_path):
     if new_path not in os.environ["PATH"].split(os.pathsep): # Check if the new path already exists in PATH
@@ -219,7 +217,3 @@ def merge_transcript_segments_into_combined_text(segments):
         if sentences:
             sentence_buffer = sentences.pop() if len(sentences) % 2 != 0 else ""
     return combined_text, list_of_metadata_dicts, list_of_sentences
-
-if __name__ == '__main__':
-    url_to_process = single_video_url if convert_single_video else playlist_url
-    asyncio.run(process_video_or_playlist(url_to_process, max_simultaneous_youtube_downloads, max_workers_transcribe))

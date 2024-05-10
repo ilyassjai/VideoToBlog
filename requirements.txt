@@ -1,0 +1,5 @@
+psutil
+pytube
+pandas
+faster-whisper
+opencv-python
