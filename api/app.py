@@ -1,6 +1,6 @@
 from werkzeug.utils import secure_filename  # type: ignore
 from flask import Flask, request, jsonify  # type: ignore
-from flask_cors import CORS, cross_origin
+from flask_cors import CORS # type: ignore
 
 import subprocess
 
@@ -17,7 +17,7 @@ def allowed_file(filename):
 
 @app.route('/')
 def index():
-    return 'server is live'
+    return jsonify({'status': 'server is live'})
 
 
 @app.route('/process-youtube-link', methods=['POST'])
@@ -36,7 +36,7 @@ def process_youtube_file():
     if video_file and allowed_file(video_file.filename):
         filename = secure_filename(video_file.filename)
         video_file.save(f'uploads/{filename}')  # Save video
-        process = subprocess.run(['python3', '../whisper.py', youtube_link])
+        process = subprocess.run(['python3', '../whisper.py', video_file])
 
         print(f"Video saved: {filename}")
         print(
